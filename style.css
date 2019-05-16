@@ -1,101 +1,97 @@
-body{
-    padding: 0;
-    margin: 0;
-    background-color: rgba(153, 146, 146, 0.212);
-    font-family: 'Cabin', sans-serif;
+body {
+  padding: 0;
+  margin: 0;
+  background-color: rgba(153, 146, 146, 0.212);
+  font-family: "Cabin", sans-serif;
 }
 
-#header{
-    background-color:#f7b030;
-    border-bottom: 1px solid black;
-    
+#header {
+  background-color: #f7b030;
+  border-bottom: 1px solid black;
 }
 
-.nav-link{
-    color: azure;
-    cursor: pointer;
-
+.nav-link {
+  color: azure;
+  cursor: pointer;
 }
-.navbar-brand{
-    color: black;
-    cursor: pointer;
+.navbar-brand {
+  color: black;
+  cursor: pointer;
 }
 
-.nav-link{
-    margin-right: 1em !important;
+.nav-link {
+  margin-right: 1em !important;
 }
 
 .nav-link:hover {
-    color: #f7b030;
-    box-shadow: inset 0 0 0 25px #000;
+  color: #f7b030;
+  box-shadow: inset 0 0 0 25px #000;
 }
 
-.navbar-brand:hover{
-    color: white;
-
+.navbar-brand:hover {
+  color: white;
 }
 
-.navbar-collapse{
-    justify-content: flex-end;
+.navbar-collapse {
+  justify-content: flex-end;
 }
-.header{
-    background-image: url("https://stmed.net/sites/default/files/fantasy-map-wallpapers-28152-314525.jpg");
-    background-size:cover;
-    background-position: center;
-    position: relative;
+.header {
+  background-image: url("https://stmed.net/sites/default/files/fantasy-map-wallpapers-28152-314525.jpg");
+  background-size: cover;
+  background-position: center;
+  position: relative;
 }
-.overlay{
-    position:absolute;
-    min-height: 100%;
-    min-width: 100%;
-    left: 0;
-    top: 0;
-    background: rgba(0, 0, 0, 0.384);
+.overlay {
+  position: absolute;
+  min-height: 100%;
+  min-width: 100%;
+  left: 0;
+  top: 0;
+  background: rgba(0, 0, 0, 0.384);
 }
-.description{
-    left: 50%;
-    position: absolute;
-    top: 45%;
-    transform: translate(-50%, -55%);
-    text-align: center;
+.description {
+  left: 50%;
+  position: absolute;
+  top: 45%;
+  transform: translate(-50%, -55%);
+  text-align: center;
 }
-.description h1{
-    color:#f7b030;
-    
+.description h1 {
+  color: #f7b030;
 }
-.description p{
-    color: azure;
-    font-size: 1.3rem;
-    line-height: 1.5;
+.description p {
+  color: azure;
+  font-size: 1.3rem;
+  line-height: 1.5;
 }
-.description button{
-    border: 1px solid #f7b030;
-    background: #f7b030;
-    border-radius: 0;
-    color: azure;
-}
-
-.description button:hover{
-    border: 1px solid #fff;
-    background: #fff;
-    color: #000;
+.description button {
+  border: 1px solid #f7b030;
+  background: #f7b030;
+  border-radius: 0;
+  color: azure;
 }
 
-.features{
-    margin: 4em auto;
-    padding: 1em;
-    position: relative;
-}
-.feature-title{
-    color: #f7b030;
-    font-size: 1.3rem;
-    font-weight: 700;
-    margin-bottom: 20px;
-    text-transform: uppercase;
+.description button:hover {
+  border: 1px solid #fff;
+  background: #fff;
+  color: #000;
 }
 
-.features img{
-    -webkit-box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.4);
+.features {
+  margin: 4em auto;
+  padding: 1em;
+  position: relative;
+}
+.feature-title {
+  color: #f7b030;
+  font-size: 1.3rem;
+  font-weight: 700;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+}
+
+.features img {
+  -webkit-box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.4);
   -moz-box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.4);
   box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.4);
   margin-bottom: 16px;
@@ -106,10 +102,10 @@ body{
 
 .features .form-control,
 .features input {
-    border-radius: 0;
+  border-radius: 0;
 }
 .features .btn {
-  background-color:#f7b030;
+  background-color: #f7b030;
   border: 1px solid #f7b030;
   color: azure;
   margin-top: 20px;
@@ -120,7 +116,7 @@ body{
 }
 
 .page-footer {
-  background-color:#000;
+  background-color: #000;
   color: azure;
   padding: 60px 0 30px;
 }
@@ -129,10 +125,9 @@ body{
   padding: 40px 0;
 }
 
-.footer p{
-    text-align: center;
+.footer p {
+  text-align: center;
 }
-#link{
-    color: #f7b030
+#link {
+  color: #f7b030;
 }
-
